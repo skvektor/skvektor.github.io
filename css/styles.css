@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 нояб. 2019 г., 11:34:30
+    Author     : Default
+*/
+body{
+    background-image:url(../images/background.jpg);
+    font-family:arial;
+    margin:0;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width:100%;
+}
+header{
+    background:#dddddd;
+    color:white;
+    padding: 15px 15px 0px 15px;
+}
+header h1{
+    margin:0;
+    display: inline;
+}
+nav{
+    margin-top:10px;
+    float: left;
+}
+nav ul{
+    background: #666;
+    margin:0;
+    display: inline;
+    padding:35px 0px 26px 0px;
+}
+nav ul li{
+    background:firebrick;
+    color:white;
+    display:inline-block;
+    list-style-type:none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width:150px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+}
+nav ul li a{
+    font-size: 25px;
+    color:white;
+    text-decoration:none;
+}
+.row{
+    clear:both;
+}
+.col{
+    background:#999;
+    border-radius:5px;
+    float:left;
+    padding:.5%;
+    margin:.5%;
+    width:31%;
+}
+footer{
+    clear:both;
+}
+#headerinfo{
+    float:right;
+    display:inline-block;
+    list-style-type:none;
+    background:#888;
+    line-height: 25px;
+    color:maroon;
+    font-size:25px;
+    padding: 20px;
+    margin-top: 0px;
+}
+#logo{
+    height: 150px;
+}
+h2{
+    background:pink;
+    margin:0px 0px 15px 15px;
+    padding:10px 10px 50px 10px;
+    clear:both;
+    float:left;
+    width:70%;
+    text-align:justify;
+}
+h3{
+    margin:50px;
+    padding:20px;
+    clear:both;
+    text-align:center;
+}
+p{
+    background:#999;
+    margin:-50px 15px 15px 15px;
+    padding:15px;
+    float:right;
+    width:70%;
+    text-align:justify;
+    font-size:22px;
+}
+footer{
+    background: #333;
+    margin:0px;
+    padding:15px;
+    color:white;
+}
+.licenses{
+    margin:15px;
+    float:left;
+    text-align: center;
+}
+.license{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+}
+.img-with-text{
+    display:inline-block;
+    text-align:center;
+    width:300px;
+}
+.img-with-text img{
+    display:inline-block;
+    margin:40px auto;
+}
+.text-under-img{
+    display:inline-block;
+    background: none;
+    font-size:20px;
+    text-align: center;
+}
+.projects{
+    margin:25px;
+    text-align: center;
+    align-content: center;
+}
+.project{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#current{
+    background:#d88599;
+}
+#map{
+    text-align: center;
+    padding-bottom:20px;
+}
+span{
+    display:inline-block;
+    vertical-align: middle;
+    line-height: normal
+}
